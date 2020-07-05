@@ -1,0 +1,13 @@
+// Инициализируем гит репозиторий. - git init
+// Создаем файл index.html - touch index.html
+// Изменяем статус файла чтобы гит его трекал. -git add index.html
+// Делаем коммит с сообщением "initial commit" -git commit -m "craete index.html"
+// Добавляем remote repository gitthub -git remote add https....
+// Делаем пуш в удаленный репозиторий. -git push -u origin master
+// Создаем файл style.css и добавляем его в предыдущий коммит. -vim style.css => git add . => git commit --amend
+// Пушим на сервер. -git push
+// Меняем файл style.css -vim style.css
+// Откатываем изменения style.css -git checkout style.css
+// Делаем копию папки и из новой папки создаем новую ветку new-branch - git clone ..ссылка на репозиторий =>  git checkout -b "name" or git branch 'name'
+// Создаем файл main.js и делаем с ним коммит и пуш -touch main.js => git add main.js => git commit -m "added main.js" => git push --set-upstream origin 'name' далее просто git push
+// Переходим в первоначальную папку и спуливаем изменения из ветки new-branch в ветку master. git checkout master / git merge new-branch
