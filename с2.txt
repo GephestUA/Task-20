@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-wwwwwww
-aaaaaa
-=======
->>>>>>> parent of 0f0acbf... asd1
+qwe
