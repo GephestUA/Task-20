@@ -1,8 +1,1 @@
-<<<<<<< HEAD
-qweqwe
-asdasdasd
-=======
-qweqweqwe
-asdasdasd
-zxcxzczxc
->>>>>>> parent of bb5408b... qwe
+123
